@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Prezkusovak</string>
+    <string name="button">A1</string>
+    <string name="button2">A1+B1</string>
+    <string name="button3">A1+B1+C1</string>
+    <string name="seznam">Seznam</string>
+    <string name="prezkusovak">Prezkusovak</string>
+    <string name="test">Test</string>
+    <string name="slovickoswitcher">SlovickoSwitcher</string>
+    <string name="swiper">Swiper</string>
+    <string name="A1">A1</string>
+    <string name="B1">B1</string>
+    <string name="C1">C1</string>
+</resources>

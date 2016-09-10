@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Prezkusovak"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zkousej od cisla:"
+            android:inputType="none"
+            android:id="@+id/textView2"
+            android:layout_weight="0.08" />
+
+        <EditText
+            android:layout_width="44dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="1"
+            android:ems="10"
+            android:id="@+id/editText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zkousej do cisla:"
+            android:inputType="none"
+            android:id="@+id/textView3"
+            android:layout_weight="0.23" />
+
+        <EditText
+            android:layout_width="44dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="100"
+            android:ems="10"
+            android:id="@+id/editText2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:inputType="none"
+            android:hint="Zobrazi slovicko"
+            android:id="@+id/textView4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vygeneruj_slovicko"
+            android:id="@+id/button4"
+            android:layout_weight="0.02" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ukaz_preklad"
+            android:id="@+id/button5"
+            android:layout_weight="0.03" />
+    </LinearLayout>
+
+</LinearLayout>

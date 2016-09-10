@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/seznam_menu"
+        android:title="@string/seznam"
+        android:showAsAction="never"/>
+    <item android:id="@+id/slovickoswitcher_menu"
+        android:title="@string/slovickoswitcher"
+        android:showAsAction="never"/>
+    <item android:id="@+id/prezkusovak_menu"
+        android:title="@string/prezkusovak"
+        android:showAsAction="never"/>
+    <item android:id="@+id/test_menu"
+        android:title="@string/test"
+        android:showAsAction="never"/>
+    <item android:id="@+id/swiper_menu"
+        android:title="Swiper"
+        android:showAsAction="never"/>
+</menu>
